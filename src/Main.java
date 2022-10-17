@@ -9,9 +9,12 @@ public class Main {
         Shapes.circle(bob, 1); //circle
         Move.left(bob, 200); //move left
         Shapes.rectangle(bob, 100, 50); //rectangle
-        Move.down(bob, 100); //move down
+        Move.down(bob, 50); //move down
         Shapes.hexagon(bob, 50); //hexagon
-        Move.down(bob, 100);
-        Shapes.spiral(bob,)
+        Move.down(bob, 175);
+        Shapes.spiral(bob,30);
+        Move.down(bob, 50);
+        Move.left(bob,70);
+        Shapes.initial(bob,50);
     }
 }
